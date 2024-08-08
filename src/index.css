@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  /* padding: 40px; */
+  
+  font-family: 'Golos Text', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-container {
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.login-div {
+  /* width: 35vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}

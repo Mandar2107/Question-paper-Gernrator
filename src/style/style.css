@@ -1,0 +1,112 @@
+.courses-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.course-item {
+    transition: 1s;
+}
+
+.course-item:hover {
+    box-shadow: 4px 4px 20px lightgray;
+    cursor: pointer;
+}
+
+.units-section {}
+
+.profile-container>* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mcq-option>h3 {
+    margin-right: 10px;
+}
+
+.paper-divs * {
+    margin-right: 10px;
+}
+
+.question-single span {
+    margin: 0px 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 400px;
+}
+
+.d-f {
+    display: flex;
+}
+
+.f-d-r {
+    flex-direction: row;
+}
+
+.f-d-c {
+    flex-direction: column;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.j-c-c {
+    justify-content: center
+}
+
+.j-c-sb {
+    justify-content: space-between;
+}
+
+.mv-10 {
+    margin: 0px 10px;
+}
+
+.mh-10 {
+    margin: 10px 0px;
+}
+
+.f-1 {
+    flex: 1
+}
+
+.f-w-w {
+    flex-wrap: wrap;
+}
+
+.button-hover {
+    transition: 0.5s;
+}
+
+.button-hover:hover {
+    background-color: lightgray;
+}
+
+.ctop {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive {
+        flex-direction: column;
+    }
+}
+
+.change-width {
+
+    width: 6vw;
+    transition: 1s;
+}
+
+.change-width:hover {
+    width: 20vw;
+    box-shadow: 4px 4px 20px lightgray;
+    cursor: pointer;
+}
